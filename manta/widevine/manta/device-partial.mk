@@ -12,11 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := manta/device-partial.mk
-
-$(call inherit-product-if-exists, vendor/audience/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))
-
-PRODUCT_RESTRICT_VENDOR_FILES := owner
+# Widevine blob(s) necessary for Manta hardware
+PRODUCT_COPY_FILES := \
+    vendor/samsung/manta/widevine/manta/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/manta/widevine/manta/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/manta/widevine/manta/proprietary/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/manta/widevine/manta/proprietary/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
