@@ -11,24 +11,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# Samsung blob(s) necessary for Manta hardware
-PRODUCT_PACKAGES := \
-    fimc_is_fw \
-    fimc_is_fw2 \
-    maxtouch \
-    mfc_fw \
-    setfile \
-    setfile_4e5 \
-    setfile_6a3 \
-    libbccArm \
-    libGLES_mali \
-    libdrmdecrypt \
-    libmalicore \
-    libRSDriverArm \
-    libstagefright_hdcp \
-    00060308060501020000000000000000 \
-    020a0000000000000000000000000000 \
-    07060000000000000000000000000000 \
-    ffffffff000000000000000000000005 \
-
