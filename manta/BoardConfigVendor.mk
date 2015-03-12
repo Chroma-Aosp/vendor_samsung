@@ -17,3 +17,4 @@ LOCAL_STEM := manta/BoardConfigPartial.mk
 -include vendor/samsung/manta/audience/$(LOCAL_STEM)
 -include vendor/samsung/manta/broadcom/$(LOCAL_STEM)
 -include vendor/samsung/manta/samsung/$(LOCAL_STEM)
+-include vendor/samsung/manta/proprietary/$(LOCAL_STEM)

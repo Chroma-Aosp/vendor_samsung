@@ -16,12 +16,12 @@
 PRODUCT_PACKAGES := \
     fimc_is_fw \
     fimc_is_fw2 \
+    libbccArm \
     maxtouch \
     mfc_fw \
     setfile \
     setfile_4e5 \
     setfile_6a3 \
-    libbccArm \
     libGLES_mali \
     libdrmdecrypt \
     libmalicore \
