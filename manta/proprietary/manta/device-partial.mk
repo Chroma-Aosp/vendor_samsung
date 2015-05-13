@@ -27,5 +27,3 @@ PRODUCT_PACKAGES := \
 
 PRODUCT_COPY_FILES := \
     vendor/samsung/manta/proprietary/manta/proprietary/fmas_eq.dat:system/etc/fmas_eq.dat \
-    vendor/samsung/manta/proprietary/manta/proprietary/google.xml:system/etc/sysconfig/google.xml \
-    vendor/samsung/manta/proprietary/manta/proprietary/google_build.xml:system/etc/sysconfig/google_build.xml \
